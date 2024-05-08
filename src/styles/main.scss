@@ -4,6 +4,7 @@
 @use 'plans';
 @use 'available-devices';
 @use 'faq';
+@use 'footer';
 
 @font-face {
     font-family: Avenir;
@@ -31,7 +32,7 @@ body {
 @mixin text($fontSize: 16px) {
     font-size: $fontSize;
     line-height: $fontSize + 10px;
-    color: variaveis.$corTextoSecundario
+    color: variaveis.$corTextoSecundario;
 }
 
 @mixin title($fontSize: 40px){
